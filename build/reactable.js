@@ -44,7 +44,9 @@ window.ReactDOM["default"] = window.ReactDOM;
         pageButtonLimit: true,
         childNode: true,
         data: true,
-        children: true
+        children: true,
+        onItemsPerPageChange: true,
+        rowOptions: true
     };
 
     function filterPropsFrom(baseProps) {
